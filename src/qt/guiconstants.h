@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Bitdeal"
-#define QAPP_ORG_DOMAIN "bitdeal.co"
+#define QAPP_ORG_DOMAIN "bitdeal.org"
 #define QAPP_APP_NAME_DEFAULT "Bitdeal-Qt"
 #define QAPP_APP_NAME_TESTNET "Bitdeal-Qt-testnet"
 

@@ -8,7 +8,7 @@ AC_DEFUN([BITCOIN_FIND_BDB48],[
   BDB_LIBS=
   bdbpath=X
   bdb48path=X
-  bdbdirlist=
+  bdbdirlist=/workspace/db-4.8.30.NC/build_unix
   for _vn in 4.8 48 4 5 ''; do
     for _pfx in b lib ''; do
       bdbdirlist="$bdbdirlist ${_pfx}db${_vn}"
@@ -55,7 +55,7 @@ AC_DEFUN([BITCOIN_FIND_BDB48],[
     bdbpath="${bdb48path}"
   fi
   AC_SUBST(BDB_CPPFLAGS)
-  
+
   # TODO: Ideally this could find the library version and make sure it matches the headers being used
   for searchlib in db_cxx-4.8 db_cxx; do
     AC_CHECK_LIB([$searchlib],[main],[

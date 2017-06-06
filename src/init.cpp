@@ -481,8 +481,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/bitdeal/bitdeal>";
-    const std::string URL_WEBSITE = "<https://bitdeal.co>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/bitdeal-project/bitdeal>";
+    const std::string URL_WEBSITE = "<https://bitdeal.org>";
     // todo: remove urls from translations on next change
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +

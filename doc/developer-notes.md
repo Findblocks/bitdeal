@@ -162,7 +162,7 @@ Threads
 
 - ThreadMapPort : Universal plug-and-play startup/shutdown
 
-- ThreadSocketHandler : Sends/Receives data from peers on port 28333.
+- ThreadSocketHandler : Sends/Receives data from peers on port 9333.
 
 - ThreadOpenAddedConnections : Opens network connections to added nodes.
 
@@ -174,7 +174,7 @@ Threads
 
 - ThreadFlushWalletDB : Close the wallet.dat file if it hasn't been used in 500ms.
 
-- ThreadRPCServer : Remote procedure call handler, listens on port 28332 for connections and services them.
+- ThreadRPCServer : Remote procedure call handler, listens on port 9332 for connections and services them.
 
 - BitdealMiner : Generates bitdeals (if wallet is enabled).
 
@@ -423,7 +423,7 @@ Git and github tips
 
         [remote "upstream-pull"]
                 fetch = +refs/pull/*:refs/remotes/upstream-pull/*
-                url = git@github.com:bitdeal/bitdeal.git
+                url = git@github.com:bitdeal-project/bitdeal.git
 
   This will add an `upstream-pull` remote to your git repository, which can be fetched using `git fetch --all`
   or `git fetch upstream-pull`. Afterwards, you can use `upstream-pull/NUMBER/head` in arguments to `git show`,

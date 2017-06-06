@@ -26,7 +26,7 @@ class CBlockIndex;
 
 inline double AllowFreeThreshold()
 {
-    return COIN * 144 / 250; // 144 blocks found a days
+    return COIN * 144 / 250;
 }
 
 inline bool AllowFree(double dPriority)
@@ -637,7 +637,7 @@ public:
 
     /** Estimate priority needed to get into the next nBlocks */
     double estimatePriority(int nBlocks) const;
-
+    
     /** Write/Read estimates to disk */
     bool WriteFeeEstimates(CAutoFile& fileout) const;
     bool ReadFeeEstimates(CAutoFile& filein);
@@ -683,7 +683,7 @@ private:
     void removeUnchecked(txiter entry);
 };
 
-/**
+/** 
  * CCoinsView that brings transactions from a memorypool into view.
  * It does not check for spendings by memory pool transactions.
  */

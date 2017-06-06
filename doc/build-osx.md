@@ -25,7 +25,7 @@ Build Bitdeal Core
 
 1. Clone the bitdeal source code and cd into `bitdeal`
 
-        git clone https://github.com/bitdeal/bitdeal
+        git clone https://github.com/bitdeal-project/bitdeal
         cd bitdeal
 
 2.  Build bitdeal-core:

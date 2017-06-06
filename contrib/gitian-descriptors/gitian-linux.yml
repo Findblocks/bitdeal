@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/bitdeal/bitdeal.git"
+- "url": "https://github.com/bitdeal-project/bitdeal.git"
   "dir": "bitdeal"
 files: []
 script: |

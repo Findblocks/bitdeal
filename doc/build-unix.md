@@ -166,10 +166,10 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-BITDEAL_ROOT=$(pwd)
+LITECOIN_ROOT=$(pwd)
 
 # Pick some path to install BDB to, here we create a directory within the bitdeal directory
-BDB_PREFIX="${BITDEAL_ROOT}/db4"
+BDB_PREFIX="${LITECOIN_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -185,7 +185,7 @@ cd db-4.8.30.NC/build_unix/
 make install
 
 # Configure Bitdeal Core to use our own-built instance of BDB
-cd $BITDEAL_ROOT
+cd $LITECOIN_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
 ```
@@ -274,7 +274,7 @@ Setup and Build Example: Arch Linux
 This example lists the steps necessary to setup and build a command line only, non-wallet distribution of the latest changes on Arch Linux:
 
     pacman -S git base-devel boost libevent python
-    git clone https://github.com/bitdeal/bitdeal.git
+    git clone https://github.com/bitdeal-project/bitdeal.git
     cd bitdeal/
     ./autogen.sh
     ./configure --disable-wallet --without-gui --without-miniupnpc

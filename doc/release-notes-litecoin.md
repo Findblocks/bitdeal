@@ -1,13 +1,13 @@
 Bitdeal Core version 0.13.3 is now available from:
 
-  <https://download.bitdeal.co/bitdeal-0.13.3/>
+  <https://download.bitdeal.org/bitdeal-0.13.3/>
 
 This is a new major version release, including new features, various bugfixes and performance improvements, as well as updated translations.
 It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/bitdeal/bitdeal/issues>
+  <https://github.com/bitdeal-project/bitdeal/issues>
 
 Compatibility
 ==============
