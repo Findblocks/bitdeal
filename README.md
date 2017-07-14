@@ -3,7 +3,7 @@ Bitdeal Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/bitdeal-project/bitdeal.svg?branch=master)](https://travis-ci.org/bitdeal-project/bitdeal)
 
-https://bitdeal.org
+https://bitdeal.co.in
 
 What is Bitdeal?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Bitdeal Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Bitdeal Core software, see [https://bitdeal.org](https://bitdeal.org).
+the Bitdeal Core software, see [https://bitdeal.co.in](https://bitdeal.co.in).
 
 License
 -------
